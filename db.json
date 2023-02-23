@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "name": "Myra",
+      "id": 1
+    },
+    {
+      "name": "Ms. Ray Murphy",
+      "id": 2
+    },
+    {
+      "name": "Ebony Keeling",
+      "id": 3
+    },
+    {
+      "name": "Kristopher White",
+      "id": 5
+    },
+    {
+      "name": "Angel Lebsack DDS",
+      "id": 6
+    }
+  ],
+  "albums": [
+    {
+      "id": 10,
+      "title": "Hiking Trip",
+      "userId": 1
+    },
+    {
+      "userId": 2,
+      "title": "Gorgeous Soft Chair",
+      "id": 15
+    },
+    {
+      "userId": 3,
+      "title": "Awesome Steel Sausages",
+      "id": 17
+    },
+    {
+      "userId": 2,
+      "title": "Elegant Cotton Gloves",
+      "id": 18
+    },
+    {
+      "userId": 2,
+      "title": "Licensed Frozen Towels",
+      "id": 19
+    },
+    {
+      "userId": 3,
+      "title": "Intelligent Fresh Salad",
+      "id": 20
+    },
+    {
+      "userId": 3,
+      "title": "Modern Cotton Shoes",
+      "id": 21
+    },
+    {
+      "userId": 5,
+      "title": "Refined Steel Mouse",
+      "id": 22
+    },
+    {
+      "userId": 1,
+      "title": "Refined Fresh Chicken",
+      "id": 23
+    },
+    {
+      "userId": 1,
+      "title": "Licensed Bronze Table",
+      "id": 24
+    },
+    {
+      "userId": 6,
+      "title": "Unbranded Frozen Pizza",
+      "id": 25
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=34746",
+      "id": 7
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=28717",
+      "id": 11
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=86837",
+      "id": 12
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=94338",
+      "id": 13
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=86361",
+      "id": 14
+    },
+    {
+      "albumId": 15,
+      "url": "https://loremflickr.com/150/150/abstract?lock=97319",
+      "id": 15
+    },
+    {
+      "albumId": 19,
+      "url": "https://loremflickr.com/150/150/abstract?lock=40928",
+      "id": 18
+    },
+    {
+      "albumId": 19,
+      "url": "https://loremflickr.com/150/150/abstract?lock=78172",
+      "id": 19
+    },
+    {
+      "albumId": 25,
+      "url": "https://loremflickr.com/150/150/abstract?lock=66555",
+      "id": 21
+    }
+  ]
+}
