@@ -4,7 +4,7 @@ import { faker } from "@faker-js/faker";
 const photosApi = createApi({
   reducerPath: "photos",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://seen-fluoridated-branch.glitch.me",
+    baseUrl: "https://cliff-immediate-alto.glitch.me",
   }),
   endpoints(builder) {
     return {
