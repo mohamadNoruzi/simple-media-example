@@ -4,7 +4,7 @@ import { faker } from "@faker-js/faker";
 const albumsApi = createApi({
   reducerPath: "albums",
   baseQuery: fetchBaseQuery({
-    baseUrl: "http://localhost:3005",
+    baseUrl: "https://aquatic-lean-work.glitch.me",
     fetchFn: async (...args) => {
       // REMOVE FOR R=PRODUCTION
       await pause(1000);
