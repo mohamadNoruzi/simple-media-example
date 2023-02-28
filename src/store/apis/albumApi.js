@@ -4,7 +4,7 @@ import { faker } from "@faker-js/faker";
 const albumsApi = createApi({
   reducerPath: "albums",
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://cliff-immediate-alto.glitch.me",
+    baseUrl: "http://localhost:3005",
     fetchFn: async (...args) => {
       // REMOVE FOR R=PRODUCTION
       await pause(1000);
