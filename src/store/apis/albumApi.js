@@ -5,10 +5,10 @@ const albumsApi = createApi({
   reducerPath: "albums",
   baseQuery: fetchBaseQuery({
     baseUrl: "https://aquatic-lean-work.glitch.me",
-    fetchFn: async (...args) => {
-      // REMOVE FOR R=PRODUCTION
-      await pause(1000);
-      return fetch(...args);
+//     fetchFn: async (...args) => {
+//       // REMOVE FOR R=PRODUCTION
+//       await pause(1000);
+//       return fetch(...args);
     },
   }),
   endpoints(builder) {
@@ -64,11 +64,11 @@ const albumsApi = createApi({
 });
 
 //DEV ONLY
-const pause = (duration) => {
-  return new Promise((resolve) => {
-    setTimeout(resolve, duration);
-  });
-};
+// const pause = (duration) => {
+//   return new Promise((resolve) => {
+//     setTimeout(resolve, duration);
+//   });
+// };
 
 export const {
   useFetchAlbumQuery,
